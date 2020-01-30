@@ -45,4 +45,4 @@
 
 ``` 
 
-![](https://github.com/stellanhaglund/grph.js/images/bar.png)
+![](https://github.com/stellanhaglund/grph.js/blob/master/images/bar.png?raw=true)
