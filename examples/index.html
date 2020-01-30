@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../dist/grph.min.js"></script>
+</head>
+
+<body style="height: 100vh; width: 100vw;">
+
+    <canvas id="c"></canvas>
+
+    <script>
+
+        var chart = new Grph({
+            type: 'bar',
+            canvas: document.getElementById('c'),
+            data: [
+                { name: 'Satisfied', count: 1043, color: '#4a90e2' },
+                { name: 'Neutral', count: 563, color: '#5a90e2' },
+                { name: 'Unsatisfied', count: 510, color: '#6a90e2' },
+                { name: 'No comment', count: 175, color: '#7a90e2' }
+            ]
+        });
+
+        window.addEventListener('resize', function () {
+            chart.resize()
+        })        
+
+    </script>
+
+</body>
+
+</html>

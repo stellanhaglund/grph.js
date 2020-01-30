@@ -1,0 +1,19 @@
+{
+  "name": "bemrjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^1.29.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-plugin-uglify-es": "0.0.1",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
