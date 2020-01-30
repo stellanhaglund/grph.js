@@ -44,3 +44,5 @@
     })        
 
 ``` 
+
+![](https://github.com/stellanhaglund/grph.js/images/bar.png)
