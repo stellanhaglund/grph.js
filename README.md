@@ -1,7 +1,14 @@
 # lightweight responsive charts
 
 
+## Each chart type will also be available in their own minified package like this.
 
+`grph.bar.min.js`
+`grph.pie.min.js`
+
+
+
+## How to use it.
 
 ```javascript
 
